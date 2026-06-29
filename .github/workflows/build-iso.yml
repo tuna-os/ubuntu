@@ -53,7 +53,7 @@ jobs:
 
       - name: Pull Ubuntu base image
         run: |
-          podman pull ghcr.io/hanthor/ubuntu-26.04-desktop-bootc:latest
+          podman pull ghcr.io/tuna-os/ubuntu-26.04-desktop-bootc:latest
 
       - name: Build Live ISO
         run: |
